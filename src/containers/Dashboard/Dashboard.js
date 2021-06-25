@@ -49,29 +49,7 @@ class Dashboard extends Component {
   };
 
   componentDidMount() {
-    console.log(this.props.role);
-
-    // let userDetails = JSON.parse(localStorage.getItem('response_value'))
-    let userId;
-    // userDetails? userId = userDetails[userDetails.length-1].data.id: userId = null;
-
-    let companyDetails = JSON.parse(localStorage.getItem("company_details"));
-    let role = JSON.parse(localStorage.getItem("role"));
-
-    let companyDetailsLength = companyDetails.length;
-
-    let company_id = companyDetails[companyDetailsLength - 1].data.company_id;
-
-    console.log(company_id, "company_id");
-    console.log(userId, "user_id");
-
-    console.log(role);
-
-    console.log(companyDetails[companyDetailsLength - 1].data.company_id);
-
-    // console.log(userDetails[0].id);
-    //http://localhost/v1/api/staffs/
-    //https://api-remi-hr.herokuapp.com/v1/api/staffs/
+    
   }
 
   toggleDrawer = (open) => (event) => {
