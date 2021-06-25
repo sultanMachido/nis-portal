@@ -1,0 +1,46 @@
+.Modal{
+    position: absolute;
+    width: 386px;
+    height: 650px;
+    right:-386px;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    transition: right 1s linear;
+    display:none
+}
+.Container{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.NavList{
+    list-style-type: none;
+}
+
+
+@media screen and (min-width:1200px){
+       
+    .Modal{
+        position: absolute;
+        width: 386px;
+        height: 650px;
+        right:-386px;
+        top: 0px;
+        background-color: white;
+        z-index: 1;
+        transition: right 1s linear;
+        display:block
+    }
+    .Container{
+        display:flex;
+        width:100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .NavList{
+        list-style-type: none;
+    }
+
+}

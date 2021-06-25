@@ -1,0 +1,52 @@
+.NavContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+ }
+
+.NavLogo{
+    width:50%;
+} 
+
+.SubNavigation{
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.SubNavigation a{
+    text-decoration: none;
+    color: #65b7b5;
+}
+
+.NavLocation{
+    margin-top: 10px;
+    margin-right: 40px;
+    color: #65b7b5;
+   
+}
+
+.NavIcon{
+    color:white;
+    margin-top: 20px;
+}
+
+.hamburg{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+ 
+@media screen and (min-width: 1200px){
+     .NavContainer{
+         width: 80%;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+         box-sizing: border-box;
+      }
+}

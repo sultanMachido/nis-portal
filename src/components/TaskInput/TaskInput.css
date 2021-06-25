@@ -1,0 +1,32 @@
+.Inp{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #65b7b5;
+    color: gray;
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    outline:none;
+}
+
+.Inp:active{
+    border: none;
+}
+
+.Container{
+    width:100%;
+    display:flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+input[type='file']{
+    width:0.1px;
+    height:0.1px;
+    opacity:0;
+    overflow:hidden;
+    position:absolute;
+    z-index:-1;
+}

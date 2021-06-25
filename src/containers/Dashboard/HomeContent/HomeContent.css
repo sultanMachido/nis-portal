@@ -1,0 +1,15 @@
+.HomeContent{
+    display:flex;
+    text-align: center;
+  
+}
+
+hr{
+    width: 80%;
+    opacity: 0.5;
+}
+
+.RightSidebar{
+    width:30%;
+    margin-top: 50px;
+}

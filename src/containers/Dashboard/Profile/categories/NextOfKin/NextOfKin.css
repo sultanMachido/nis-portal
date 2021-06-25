@@ -1,0 +1,10 @@
+.NextOfKinInfo {
+    display:flex
+}
+
+.NextOfKinInfo h5{
+    margin:5px
+}
+.NextOfKinInfo  h5:first-child{
+    color: rgba(1, 22, 39, 0.5);
+}

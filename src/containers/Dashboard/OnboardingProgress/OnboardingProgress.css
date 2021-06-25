@@ -1,0 +1,14 @@
+.HomeContent{
+    display:flex;
+    text-align: center;
+  
+}
+
+.RightSidebar{
+    width:30%;
+    margin-top: 50px;
+} 
+
+.Btn{
+    margin-top: 400px;
+}

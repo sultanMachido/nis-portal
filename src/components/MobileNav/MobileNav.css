@@ -1,0 +1,46 @@
+.Left{
+    width: 15%;
+    background-color:#FFFFFF;
+    height: 100vh;
+    position: fixed;
+    display:none
+    
+}
+
+.Left a{
+    text-decoration: none;
+    color:rgba(1, 22, 39, 0.5);
+    font-weight:bold;
+}
+
+.Left a:active{
+    background-color: grey;
+}
+
+.Logout{
+    display:flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.Logout img{
+    width: 18px;
+    height: 18px;
+    margin-top: 24px;
+}
+
+.Logout h6{
+    padding-left: 2px;
+}
+
+
+@media screen and (max-width: 700px){
+    .Left{
+        width:0
+    }
+
+    .ShowDrawer{
+        width: 250px;
+    }
+}

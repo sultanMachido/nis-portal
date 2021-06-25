@@ -1,0 +1,10 @@
+.PersonalInfo{
+    display:flex
+}
+
+.PersonalInfo h5{
+    margin:5px
+}
+.PersonalInfo  h5:first-child{
+    color: rgba(1, 22, 39, 0.5);
+}

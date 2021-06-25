@@ -1,0 +1,35 @@
+.Btn{
+    padding: 15px;
+    width: 114px;
+    display: block;
+    /* margin: 25px auto; */
+    background-color: #65B765;
+    border: 0px;
+    color:white;
+    border-radius: 6%;
+}
+
+.Inp{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    color: gray;
+    width: 150px;
+    padding: 5px;
+    margin: 5px auto;
+    display: block;
+    padding: 5px;
+    outline:none;
+}
+
+
+.Inp:active{
+    border: none;
+}
+
+.Container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}

@@ -1,0 +1,44 @@
+.DashboardContainer{
+    width: 100%;
+    display:flex
+}
+
+.Right{
+    width: 85%;
+    background-color:#FDF9F9;
+    min-height:100vh;
+    margin-left: 15%;
+}
+Button a{
+    color:white;
+    text-decoration: none;
+}
+
+.MobileHeader{
+    display:none;
+  
+ }
+
+
+
+@media screen and (max-width: 700px){
+    .DashboardContainer{
+        background-color:#F2F2F2;
+    }
+    .Right{
+        width: 90%;
+        /* background-color:#F2F2F2; */
+        min-height:100vh;
+        margin:0 auto;
+    }
+    .MobileHeader{
+       display:flex;
+       justify-content: space-between; 
+    }
+}
+
+
+
+
+
+

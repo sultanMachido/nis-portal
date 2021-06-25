@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family:'DM sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'DM Sans',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+p,blockquote{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+
+@media screen and (max-width: 500px){
+  html,body{
+    overflow-x: hidden; 
+    box-sizing: border-box;
+   }
+
+ 
+}

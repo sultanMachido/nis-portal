@@ -1,0 +1,10 @@
+.PayrollInfo {
+    display:flex
+}
+
+.PayrollInfo h5{
+    margin:5px
+}
+.PayrollInfo  h5:first-child{
+    color: rgba(1, 22, 39, 0.5);
+}

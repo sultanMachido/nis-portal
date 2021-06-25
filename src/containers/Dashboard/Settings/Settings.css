@@ -1,0 +1,68 @@
+.Btn{
+    height: 38px;
+    width: 94px;
+    margin-top: 10px;
+}
+
+.BtnDiv{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.Inp{
+    padding: 12.5px 14px;
+}
+
+.Background{
+    width:90%;
+    margin:0 auto;
+    height: 300px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.TabHeader{
+    padding: 5px 20px 5px 8px;
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+
+.Tab{
+    background-color: white;
+    width: 80%;
+    margin:0 auto;
+    box-shadow: unset;
+    color: black;
+}
+
+.TabIndicator{
+    background-color: grey;
+}
+
+.label {
+    color: #fff;
+  }
+ 
+.PrivateTabIndicator-root-1, .PrivateTabIndicator-colorSecondary-3, .MuiTabs-indicator{
+      background-color: violet;
+  }
+ div.MuiTabs-scroller{
+     background-color: violet;
+ }
+
+ .MuiTabs-scroller{
+     background-color: red;
+ }
+
+
+.Paper{
+    position: absolute;
+    width:400px;
+    background-color: white;
+    border: '2px solid #000';
+    box-shadow:'grey';
+    padding: 5px;
+    top: 100px;
+    left:500px
+  }

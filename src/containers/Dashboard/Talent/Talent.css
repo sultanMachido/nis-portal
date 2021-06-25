@@ -1,0 +1,14 @@
+.TabNav{
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+    color:rgba(1, 22, 39, 0.3);
+    margin-left:100px
+}
+
+.TabNav a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color:rgba(1, 22, 39, 0.5);
+    font-weight: bold;
+}

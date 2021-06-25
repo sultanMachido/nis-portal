@@ -1,0 +1,29 @@
+.TopBar{
+    width: 100%;
+}
+
+.TopBarContent{
+    width: 100%;
+    /* margin-left: 10%; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.TopBarContent img{
+    width: 40px;
+    height: 40px;
+    margin-top: 7px;
+}
+
+.TopBarContent h5{
+   margin-top: 13px;
+   margin-left: 5px;
+}
+
+
+@media screen and (max-width: 700px){
+    .TopBar{
+        display:none
+    }
+}
