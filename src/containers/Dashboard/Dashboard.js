@@ -5,23 +5,13 @@ import SideBar from "../../components/SideBar/SideBar";
 import { Link, Switch, Route, withRouter } from "react-router-dom";
 import TopBar from "../../components/TopBar/TopBar";
 import Button from "../../components/Forms/Button/Button";
-import WelcomeContent from "./WelcomeContent/WelcomeContent";
-import HomeContent from "./HomeContent/HomeContent";
-import Profile from "./Profile/Profile";
-import OnboardingProgress from "./OnboardingProgress/OnboardingProgress";
-import { connect } from "react-redux";
-import Leave from "./Leave/Leave";
-import Employee from "./Employee/Employee";
-import AdminProfileView from "./AdminProfileView/AdminProfileView";
-import Recruitment from "./Recruitment/Recruitment";
-import Subscription from "./Subscription/Subscription";
+
 import Drawer from "@material-ui/core/Drawer";
 import NavButton from "@material-ui/core/Button";
 import HomeIcon from "@material-ui/icons/Home";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import MobileNav from "../../components/MobileNav/MobileNav";
-import Settings from "./Settings/Settings";
-import Talent from "./Talent/Talent";
+
 import lineChart from "../../images/line.png";
 import barChart from "../../images/bar.png";
 import barOne from "../../images/Group 753.png";
