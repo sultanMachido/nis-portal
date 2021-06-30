@@ -1,0 +1,17 @@
+.Inp{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #65b7b5;
+    color: gray;
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    outline:none;
+}
+
+.Inp:active{
+    border: none;
+}
+
