@@ -193,12 +193,12 @@ class Dashboard extends Component {
 
                 <div style={{marginLeft:'10%'}}>
                     <div style={{display:'flex',justifyContent:'space-between'}}>
-                        <h4>Lorem Ipsum</h4>
+                        <h4>2021 Application Process</h4>
                          <p style={{paddingTop:'23px'}}>75%</p>   
                     </div>
 
                     <div style={{display:'block'}}>
-                        <p>Number of passport processed this month</p>
+                        <p>Number of passports applied for in 2021</p>
                         <img src={pieChart} style={{marginTop:'20px'}}/>
                     </div>
                 </div>
