@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ProgressBar from "../../components/Loader/ProgressBar/ProgressBar";
 import classes from "./Dashboard.css";
 import SideBar from "../../components/SideBar/SideBar";
 import { Link, Switch, Route, withRouter } from "react-router-dom";
