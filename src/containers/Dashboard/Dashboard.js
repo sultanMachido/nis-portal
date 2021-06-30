@@ -3,8 +3,8 @@ import classes from "./Dashboard.css";
 import SideBar from "../../components/SideBar/SideBar";
 import { Link, Switch, Route, withRouter } from "react-router-dom";
 import TopBar from "../../components/TopBar/TopBar";
-
-
+import { connect } from "react-redux";
+import Button from "../../components/Forms/Button/Button";
 import Drawer from "@material-ui/core/Drawer";
 import NavButton from "@material-ui/core/Button";
 import HomeIcon from "@material-ui/icons/Home";
