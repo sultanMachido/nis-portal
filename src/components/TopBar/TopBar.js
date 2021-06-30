@@ -12,7 +12,7 @@ const TopBar =(props) =>(
         
         <div className={classes.TopBarContent}>
             <div style={{width:'70%',marginLeft:'5%'}}>
-              <h1>Welcome,Adeyemi</h1>
+              <h1>Welcome,Admin</h1>
             </div>
            
             <div style={{width:'30%',marginLeft:'29%',paddingTop:'10px',display:'flex'}}>
